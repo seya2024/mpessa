@@ -168,11 +168,11 @@ class _PinScreenState extends State<PinScreen> {
       child: Column(
         children: [
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [_pinButton('1'), _pinButton('2'), _pinButton('3')]),
-          const SizedBox(height: 8),
+          const SizedBox(height: 10),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [_pinButton('4'), _pinButton('5'), _pinButton('6')]),
-          const SizedBox(height: 8),
+          const SizedBox(height: 10),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [_pinButton('7'), _pinButton('8'), _pinButton('9')]),
-          const SizedBox(height: 8),
+          const SizedBox(height: 10),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [_pinButton('', isDelete: true), _pinButton('0'), _pinButton('', isConfirm: true)]),
         ],
       ),
