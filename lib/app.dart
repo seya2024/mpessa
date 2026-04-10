@@ -1,26 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:provider/provider.dart';
 import 'core/themes/app_theme.dart';
-import 'presentation/navigation/app_router.dart';
+import 'presentation/screens/auth/login_screen.dart';
+import 'presentation/screens/home/home_screen.dart';
+import 'data/providers/auth_provider.dart';
 
-class MpesaApp extends ConsumerStatefulWidget {
+class MpesaApp extends StatelessWidget {
   const MpesaApp({super.key});
 
   @override
-  ConsumerState<MpesaApp> createState() => _MpesaAppState();
-}
-
-class _MpesaAppState extends ConsumerState<MpesaApp> {
-  final AppRouter _appRouter = AppRouter();
-
-  @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
+    return MaterialApp(
       title: 'M-PESA Ethiopia',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.light,
-      routerConfig: _appRouter.router,
+      home: Consumer<AuthProvider>(
+        builder: (context, authProvider, _) {
+          if (authProvider.isLoggedIn) {
+            return const HomeScreen();
+          }
+          return const LoginScreen();
+        },
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
