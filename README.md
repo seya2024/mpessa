@@ -425,27 +425,6 @@ Please report security vulnerabilities by emailing security@mpesa.com
 - Include as much information as possible
 - We will respond within 48 hours
 
-How to Push to GitHub
-bash
-
-# Initialize git repository
-git init
-
-# Add all files
-git add .
-
-# Commit changes
-git commit -m "Initial commit: M-PESA Ethiopia mobile money app"
-
-# Add remote repository
-git remote add origin https://github.com/yourusername/mpesa-ethiopia.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-
-This README provides a complete, professional documentation for your M-PESA Ethiopia project on GitHub!
-
 
 
 
