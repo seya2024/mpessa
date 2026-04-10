@@ -47,12 +47,17 @@ M-PESA Ethiopia is a feature-rich mobile money application that allows users to 
 
 ## 📸 Screenshots
 
+
+
 <div align="center">
   <table>
     <tr>
-      <td><img src="screenshots/login.png" width="200" alt="Login Screen"/></td>
-      <td><img src="screenshots/pin.png" width="200" alt="PIN Screen"/></td>
-      <td><img src="screenshots/home.png" width="200" alt="Home Screen"/></td>
+      <td><img width="606" height="922" alt="image" src="https://github.com/user-attachments/assets/7fa3d54b-ce17-4d3f-8130-68409e2f407c" />
+</td>
+      <td><img width="610" height="872" alt="image" src="https://github.com/user-attachments/assets/50a84319-7aa7-4b1f-94ff-e139e698794d" />
+</td>
+      <td><img width="598" height="881" alt="image" src="https://github.com/user-attachments/assets/e77cd506-e24d-40c7-a0c8-89f0c3af29cc" />
+</td>
     </tr>
     <tr>
       <td align="center">Login Screen</td>
@@ -60,9 +65,12 @@ M-PESA Ethiopia is a feature-rich mobile money application that allows users to 
       <td align="center">Dashboard</td>
     </tr>
     <tr>
-      <td><img src="screenshots/send_money.png" width="200" alt="Send Money"/></td>
-      <td><img src="screenshots/transactions.png" width="200" alt="Transactions"/></td>
-      <td><img src="screenshots/airtime.png" width="200" alt="Buy Airtime"/></td>
+      <td><img width="598" height="932" alt="image" src="https://github.com/user-attachments/assets/817bb918-c17a-4f82-bc9e-416634b2f976" />
+</td>
+      <td><img width="593" height="832" alt="image" src="https://github.com/user-attachments/assets/840c22ff-b758-4b58-94e4-424eea47a4eb" />
+</td>
+      <td><img width="612" height="863" alt="image" src="https://github.com/user-attachments/assets/1e7bf749-078b-41e2-9fe3-ed4b1b02f61a" />
+</td>
     </tr>
     <tr>
       <td align="center">Send Money</td>
